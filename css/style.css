@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.divider {
+  width: 80%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 5px 0 0 0;
+  margin: 100px auto;
+}
+
+.navbar {
+  width: 100%;
+  top: 0;
+  box-shadow: 0px 5px 5px rgba(148, 148, 148, 0.1);
+  
+}
+
+.brand {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.navbaritems {
+  font-weight: 500;
+  gap: 20px;
+}
+
+/* underline effect on navbar items */
+.nav-item {
+  position: relative;
+  display: block;
+  transition: 0.5S;
+  cursor: pointer;
+}
+
+.nav-item::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  border-radius: 10%;
+  top: 100%;
+  left: 0;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+  background-color: rgb(142, 142, 143);
+}
+
+.nav-item :hover {
+  color: #ffff;
+}
+
+.nav-item:hover::after {
+  transform:scaleX(1);
+  transform-origin: left;
+}
+
+.navbaritems :hover {
+  scale: 1.05;
+}
+
+.btn {
+  margin-right: 20px;
+}
+
+.pwel {
+  text-align: justify;
+}
+
+.clipart {
+  width: 100%;
+}
+
+.serhead {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.web {
+  width: 75%;
+}
+
+.webdis h2 {
+  padding-top: 3rem;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.webdis p {
+  text-align: justify;
+}
+
+/* why me */
+
+.why-points {
+  font-weight:400;
+  font-size: 1.26rem;
+}
+
+/* pngs */
+
+.fa-hand-point-right {
+  font-size: 30px;
+  margin-right: 10px;
+  margin-top: 5px;
+  color: rgb(64, 138, 250);
+}
+
+/* contact */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.part1-title {
+  font-size: 60px;
+  padding: 20px;
+  font-family: "Signika", sans-serif;
+}
+
+.sub-title {
+  padding: 30px;
+  text-align: justify;
+  display: inline;
+}
+
+.socials {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+  padding: 0 0 20px 20px;
+}
+
+.socials img {
+  width: 35px;
+}
+
+.socials img:hover {
+  scale: 1.2;
+  transition-duration: 80ms;
+}
+
+.part2 {
+  padding: 40px 20px;
+  border-radius: 10px;
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 5px 5px;
+  margin-bottom: 100px;
+}
+
+/* animation */
+
+.reveal {
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+
+/* portfolio */
+
+
+.project-image {
+    box-shadow: 5px 4px 29px 17px rgba(0,0,0,0.1); 
+    border-radius: 10%;
+}
+
+.project-image:hover {
+    scale: 1.05;
+    transition-duration: 70ms;
+    box-shadow: 5px 4px 29px 17px rgba(0,0,0,0.1);   
+}
+
+.col :hover {
+  scale: 1.01;
+  transition-duration: 500ms;
+}
+
+
+
+.Ser-p {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
