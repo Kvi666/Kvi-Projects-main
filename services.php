@@ -27,21 +27,21 @@
       <button class="navbar-toggler d-md-none" data-bs-toggle="collapse" data-bs-target="#items01"><span
           class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse justify-content-center" id="items01">
-        <ul class="navbaritems navbar-nav">
+      <ul class="navbaritems navbar-nav">
           <li class="nav-item active">
-            <a href="index.html" class="nav-link">HOME</a>
+            <a href="index.php" class="nav-link">HOME</a>
           </li>
           <li class="nav-item active">
-            <a href="services.html" class="nav-link">SERVICES</a>
+            <a href="services.php" class="nav-link">SERVICES</a>
           </li>
           <li class="nav-item active">
-            <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
+            <a href="portfolio.php" class="nav-link">PORTFOLIO</a>
           </li>
           <li class="nav-item active">
-            <a href="about.html" class="nav-link">ABOUT</a>
+            <a href="about.php" class="nav-link">ABOUT</a>
           </li>
           <li class="nav-item active">
-            <a href="contact.html" class="nav-link">CONTACT</a>
+            <a href="contact.php" class="nav-link">CONTACT</a>
           </li>
         </ul>
       </div>
@@ -197,27 +197,26 @@
   <!-- footer -->
   <div class="foootr bg-body-secondary">
     <footer class="py-3 mt-5">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item">
-          <a href="index.html" class="nav-link px-2 text-body-secondary">Home |</a>
+          <a href="index.php" class="nav-link px-2 text-body-secondary">Home |</a>
         </li>
         <li class="nav-item">
-          <a href="services.html" class="nav-link px-2 text-body-secondary">Services |</a>
+          <a href="services.php" class="nav-link px-2 text-body-secondary">Services |</a>
         </li>
         <li class="nav-item">
-          <a href="portfolio.html" class="nav-link px-2 text-body-secondary">Portfolio |</a>
+          <a href="portfolio.php" class="nav-link px-2 text-body-secondary">Portfolio |</a>
         </li>
         <li class="nav-item">
-          <a href="about.html" class="nav-link px-2 text-body-secondary">About |</a>
+          <a href="about.php" class="nav-link px-2 text-body-secondary">About |</a>
         </li>
         <li class="nav-item">
-          <a href="contact.html" class="nav-link px-2 text-body-secondary">Contact</a>
+          <a href="contact.php" class="nav-link px-2 text-body-secondary">Contact</a>
         </li>
       </ul>
       <div class="socials justify-content-center">
-        <a href=""><img src="img/facebook.webp" alt="fb" /></a>
-        <a href=""><img src="img/instagram.webp" alt="insta" /></a>
-        <a href=""><img src="img/youtube.webp" alt="yt" /></a>
+        <a href="https://web.facebook.com/kaweesha.prabhath.9"><img src="img/facebook.webp" alt="fb" /></a>
+        <a href="https://www.instagram.com/kvi69.exe/"><img src="img/instagram.webp" alt="insta" /></a>
         <a href="https://discord.com/channels/@me"><img src="img/discord.webp" alt="dis" /></a>
         <a href="https://github.com/Kvi666"><img src="img/github.webp" alt="git" /></a>
       </div>
