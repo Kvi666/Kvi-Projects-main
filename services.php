@@ -45,7 +45,7 @@
           </li>
         </ul>
       </div>
-      <a class="btn btn-success justify-content-end d-none d-md-block" href="contact.html">GET STARTED</a>
+      <a class="btn btn-success justify-content-end d-none d-md-block" href="contact.php">GET STARTED</a>
     </nav>
 
     <div class="row flex-lg-row align-items-center">
